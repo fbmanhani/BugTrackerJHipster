@@ -3,7 +3,7 @@ import { ITicket } from 'app/shared/model/ticket.model';
 import { Subscription } from 'rxjs';
 import { TicketService } from 'app/entities/ticket';
 import { JhiAlertService, JhiEventManager, JhiParseLinks } from 'ng-jhipster';
-import { AccountService } from 'app/core';
+import { AccountService, Account } from 'app/core';
 import { HttpErrorResponse, HttpHeaders, HttpResponse } from '@angular/common/http';
 
 @Component({

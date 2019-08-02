@@ -35,6 +35,12 @@ import io.github.jhipster.web.util.HeaderUtil;
 import io.github.jhipster.web.util.PaginationUtil;
 import io.github.jhipster.web.util.ResponseUtil;
 
+import org.springframework.security.access.annotation.Secured;
+import com.mycompany.myapp.security.AuthoritiesConstants;
+import io.swagger.annotations.ApiParam;
+import org.springframework.data.domain.PageImpl;
+
+
 /**
  * REST controller for managing {@link com.mycompany.myapp.domain.Ticket}.
  */
